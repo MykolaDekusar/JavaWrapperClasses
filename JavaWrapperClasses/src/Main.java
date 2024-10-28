@@ -18,6 +18,26 @@ public class Main {
 		//              effettua tra i tipi primitivi e le rispettive classi wrapper di oggetti
 		// Unboxing = l'inverso di autoboxing. Conversione automatica della classe wrapper in un tipo primitivo
 
+		//facciamo qualche esempio
+		//wrapper  variabile  assegnamo usando l'Autoboxing
+		//Autoboxing
+		  Boolean     a               = true;
+		  Character   b               = 'a';
+		  Integer     c               = 123;
+		  Double      d               = 3.14;
+		  String      e               ="Sono un wrapper";
+		  Float       f               = 12.123f;
+		 //Anche se ora le variabili sono di tipo riferimento possiamo utilizzarle come delle
+		 //semplici variabili primitive tramite l' Unboxing di Java
+		 //Unboxing
+		  if(a==true && b =='a') {
+			  System.out.println("Le uso come delle semplici classi primitive");
+			  if(d==3.14 && c==123 && e.contains("Sono un wrapper")) {
+				  System.out.println("Però posso utilizzare vari metodi utili su di essi");
+			  }
+		  }
+		 
+		  
 	}
 
 }
