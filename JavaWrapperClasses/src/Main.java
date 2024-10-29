@@ -34,7 +34,7 @@ public class Main {
 		  
 		  if(a==true && b =='a') {
 			  System.out.println("Le uso come delle semplici classi primitive");
-			  if(d==3.14 && c==123 && e.contains("Sono un wrapper")) {
+			  if(d==3.14 && c==123 && e.contains("Sono un wrapper") && f==12.123f) {
 				  System.out.println("Però posso utilizzare vari metodi utili su di essi");
 			  }
 		  }
